@@ -59,8 +59,14 @@ h5 {
 
 /* project styles */
 
-/* .projects {
-} */
+.insideblockproject {
+    background-color: #F7F9FC;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 8px 12px;
+    width: 182px;
+}
 
 /* work styles */
 
@@ -78,7 +84,7 @@ h5 {
 
 /* education styles  */
 
-.education-blocks {
+.education-blocks, .project-blocks {
     display: flex;
     flex-direction: row;
     align-items: stretch;
